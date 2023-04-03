@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: #beffff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: blue;
+}
+
+.nav-logo {
+  width: 100px;
+  margin-left: 40%;
+}
+
+.navbar-right {
+  width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.log-in {
+  padding: 1em;
+    width: 40%;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: blue;
+    background-color: #beffff;
+}
+
+.log-in:hover {
+  background-color: blue;
+  color: white;
+  border: 0.2em solid white;
+}
+
+
+
+.sign-up {
+  padding: 1em;
+    width: 40%;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: blue;
+    background-color: #beffff;
+}
+
+.sign-up:hover {
+  background-color: blue;
+  color: white;
+  border: 0.2em solid white;
+}
+
+
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7%;
+}
+
+.right-div {
+  width: 50%;
+}
+
+.para{
+  font-size: xx-large;
+  color: blue;
+  font-weight: bold;
+}
+
+.left-img {
+  width: 60%;
+}
+
+input {
+  padding: 1em;
+  width: 80%;
+    border-radius: 50px;
+    border: 0.2em solid blue;
+    margin: 1em;
+    background: transparent;
+}
+
+.sub-btn {
+  display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 3.8em;
+}
+
+.home-in, .home-up {
+  padding: 0.7em;
+  width: 35%;
+  border-radius: 50px;
+  border: blue solid;
+  cursor: pointer;
+  background-color: transparent;
+  margin-right: 3em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: medium;
+  color: blue;
+}
+
+.home-in:hover {
+  background-color: blue;
+  color: white;
+}
+
+.home-up:hover {
+  background-color: blue;
+  color: white;
+}
+
+/* button.g-btn {
+      background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    padding: 0px;
+    border-radius: 50px;
+    border: 0.2em solid blue;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Roboto, sans-serif;
+} */
